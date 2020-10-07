@@ -20,8 +20,8 @@ let firstColText = document.createTextNode('Sum : '),
   firstCol.appendChild(firstColText)
   secondCol.appendChild(secondColText)
 
-  firstCol.classList = 'table-danger'
-  secondCol.classList = 'table-secondary'
+  firstCol.classList = 'table-danger font-weight-bold'
+  secondCol.classList = 'table-secondary font-weight-bold'
 
 // column Insertion
 newRow.appendChild(firstCol);
